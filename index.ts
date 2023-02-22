@@ -3,6 +3,9 @@ var result = <HTMLElement>document.getElementById("result");
 var clear = <HTMLElement>document.getElementById("clear");
 
 function addCharToEquation(char) {
+  if (equation.value == "Infinity") {
+    equation.value = "";
+  }
   equation.value += char;
 }
 

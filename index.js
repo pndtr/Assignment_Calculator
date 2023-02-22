@@ -2,6 +2,9 @@ var equation = document.getElementById("input");
 var result = document.getElementById("result");
 var clear = document.getElementById("clear");
 function addCharToEquation(char) {
+    if (equation.value == "Infinity") {
+        equation.value = "";
+    }
     equation.value += char;
 }
 var Calculator = /** @class */ (function () {
