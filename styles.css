@@ -1,7 +1,12 @@
+html {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 body {
-  text-align: center;
-  width: 500px;
-  margin: 4% auto;
+  width: 500px; 
   font-family: "Source Sans Pro", sans-serif;
   letter-spacing: 5px;
   background-color: #fbbc00;
