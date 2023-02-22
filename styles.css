@@ -25,8 +25,8 @@ body {
   background-color: #d2dcbb;
   border-radius: 1px;
   height: 80px;
-  /* padding-right: -15px;
-  padding-top: 10px; */
+  padding-right: 5px;
+  /* padding-top: 10px; */
   text-align: right;
   /* margin-right: 20px; */
   font-size: 2.5rem;
@@ -53,7 +53,7 @@ body {
   background-color: #4e738c;
 }
 
-.operators:last-child {
+.operators div:last-child {
   margin-right: 0px;
 }
 
